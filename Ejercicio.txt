@@ -1,0 +1,22 @@
+El comando sed funciona para la sustitucion de palabras especificas en archivos de texto.
+
+thechrisvazquez@disimil:~$ sed 's/Donec/Hola/' elTexto.txt
+Muestra y sustituye la palabra "Donec" por "Hola" en el archivo de texto de modo solo lectura.
+
+thechrisvazquez@disimil:~$ sed -i 's/Donec/Hola/' elTexto.txt
+Modifica y sustituye la palabra "Donec" por "Hola" en el archivo de texto.
+
+thechrisvazquez@disimil:~$ sed -i 's/Donec/Hola/3' elTexto.txt
+Muestra y sustituye la palabra "Donec" por "Hola" en el archivo de texto de modo solo lectura solo si cae en cada  3 palabras.
+
+thechrisvazquez@disimil:~$ time $PROGRAMA
+Muestra el tiempo de ejecuccion de un programa en milisegundos.
+
+thechrisvazquez@disimil:~$ tar cvf elComprimido.tar.gz laCarpeta/
+Comprime la carpeta
+
+thechrisvazquez@disimil:~$ tar xvd elComprimido.tar.gz
+Descomprime  el archivo
+
+thechrisvazquez@disimil:~$ tar cvf elComprimido.tar.gz laCarpeta/
+Muestra el tamaño del archivo en kb
